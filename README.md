@@ -1,6 +1,8 @@
 # unison-read
 
-Provides a `Read a` ability, along with some combinators and handlers, that allows for incrementally consuming some `a`s to produce a result or fail. For example:
+Provides a `Read a` ability, along with some combinators and handlers, that allows for incrementally consuming some `a`s to produce a result or fail.
+
+## Example
 
 ```unison
 csv : '{Read Char} [[Text]]
@@ -20,4 +22,10 @@ csv = 'let
         [ ["123", "123", "123"],
         ["12", "12"],
         ["1"] ])
+```
+
+## Install
+
+```
+.> pull https://github.com/thoradam/unison-read:.releases._v0 .external.read.v0
 ```
