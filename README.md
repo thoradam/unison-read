@@ -27,5 +27,5 @@ csv = 'let
 ## Install
 
 ```
-.> pull https://github.com/thoradam/unison-read:.releases._v0 .external.read.v0
+.> pull https://github.com/thoradam/unison-read:.releases._v1 .external.read.v1
 ```
